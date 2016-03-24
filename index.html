@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address book</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bank Account</h1>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <h2>Create Bank Account:</h2>
+          <form id="new-account">
+            <div class="form-group">
+              <label for="new-name">Name:</label>
+              <input type="text" class="form-control" id="new-name">
+            </div>
+            <button type="submit" class="btn">Create Bank Account:</button>
+          </form>
+        <!-- </div>
+          <div class="col-md-6"> -->
+            <h2>Transaction:</h2>
+            <form id="new-account">
+              <div class="form-group">
+                <div class="form-group">
+                  <label for="new-deposit">Deposit:</label>
+                  <input type="text" class="form-control" id="new-deposit">
+                </div>
+                <label for="new-withdraw">Withdraw:</label>
+                <input type="text" class="form-control" id="new-withdraw">
+              </div>
+
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+
+          <div class="col-md-6">
+            <div id="balance">
+              <h2></h2>
+              <h1>Name: <span class="new-name"></span></h1>
+              <h2>Account History:</h2>
+                <ul id="accounthistory">
+
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
